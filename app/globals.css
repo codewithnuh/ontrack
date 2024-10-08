@@ -76,4 +76,7 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+  .containerStyles {
+    @apply container mx-auto px-4;
+  }
 }
