@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Here's an updated README for your **OnTrack** Habit Tracker project that includes the usage of **Shadcn** for charts. This includes the modified features section to reflect the changes, along with a professional layout.
 
-## Getting Started
+---
 
-First, run the development server:
+# 🚀 **OnTrack - Habit Tracker App** (In Development) 🛠️
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![Project Status](https://img.shields.io/badge/status-in%20development-orange)  
+![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen)  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### **Stay on Track with Your Habits!**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**OnTrack** is a web-based habit tracker that empowers you to build better routines and maintain consistency. This application helps you track your daily habits, visualize your progress, and stay motivated by showing your streaks and providing insightful analytics.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🏆 **Features**
 
-To learn more about Next.js, take a look at the following resources:
+- **🗓️ Daily Habit Check-ins**: Easily mark your habits as completed each day.
+- **🔄 Streak Counter**: Track how many consecutive days you've completed a habit to stay motivated.
+- **📊 Progress Visualization**: Use **Shadcn** to view detailed graphs and charts to analyze your habit performance over time.
+- **⏰ Reminders & Notifications**: Set reminders to help you stay on top of your habits.
+- **✨ User Authentication**: Secure user accounts with Clerk for easy login and management.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ⚙️ **Technologies Used**
 
-## Deploy on Vercel
+- **Frontend**: Next.js 14, React, TypeScript
+- **Backend**: MongoDB
+- **Authentication**: Clerk
+- **Data Visualization**: Shadcn
+- **Styling**: Tailwind CSS
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛠️ **Installation**
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- MongoDB (for local setup) or access to a MongoDB Atlas cluster
+
+### Steps to Set Up Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/ontrack.git
+   ```
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd ontrack
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+4. **Set up environment variables:**
+   Create a `.env.local` file in the root directory and add your environment variables (e.g., MongoDB connection string, Clerk API keys).
+
+5. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+6. **Open your browser:**
+   Navigate to `http://localhost:3000` to view the app.
+
+---
+
+## 💬 **Contributing**
+
+Contributions are welcome! If you'd like to help improve **OnTrack**, feel free to submit a pull request or open an issue to discuss enhancements.
+
+
+## 📞 **Contact**
+
+For any inquiries, you can reach me at [nuh25792@gmail.com](mailto:nuh25792@gmail.com).
+
+---
+
+> **Note**: This project is currently in development. Stay tuned for more updates and features! Your feedback is appreciated.
+
+---
