@@ -1,4 +1,4 @@
-import { Dashboard } from "@/components/shared/Dashboard";
+import { Dashboard } from "@/components/shared/Sidebar";
 import React from "react";
 
 const page = () => {

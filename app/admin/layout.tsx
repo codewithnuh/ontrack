@@ -1,4 +1,4 @@
-import { Dashboard } from "@/components/shared/Dashboard";
+import { Sidebar } from "@/components/shared/Sidebar";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "admin",
@@ -10,5 +10,5 @@ export default function DashboardLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <Dashboard>{children}</Dashboard>;
+  return <Sidebar>{children}</Sidebar>;
 }
